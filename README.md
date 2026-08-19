@@ -10,10 +10,10 @@
 
 ---
 
-## 🌐 Live Hosted Demo & Screen Recording
+## 🌐 Live Hosted Demo
 
-- **Live Application Demo**: Hosted on Vercel / Cloud: [https://talentgraph-demo.vercel.app](https://talentgraph-demo.vercel.app) *(or your deployed URL)*
-- **Video Walkthrough & Presentation**: [Watch the Screen Recording & Demo](https://talentgraph-demo.vercel.app/demo-video)
+- **🚀 Live Application**: [https://talentgraph-chi.vercel.app](https://talentgraph-chi.vercel.app)
+- **📊 Vercel Dashboard**: [https://vercel.com/sandeep4548s-projects/talentgraph](https://vercel.com/sandeep4548s-projects/talentgraph)
 
 ---
 
