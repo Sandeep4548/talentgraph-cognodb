@@ -17,6 +17,31 @@
 
 ---
 
+## 📸 Observations & Screenshots
+
+During development we verified the live deployment works and captured screenshots of key UI screens:
+
+- **Dashboard Overview** – shows node/edge counts, health badge, quick actions.
+  ![Dashboard Overview](file:///C:/Users/Subha/.gemini/antigravity-ide/brain/15bf6a9d-ba9e-469a-9a5d-8fc4d67815c5/media_1787161294640.png)
+
+- **Candidate Profile** – displays candidate details and 1‑hop network.
+  ![Candidate Profile](file:///C:/Users/Subha/.gemini/antigravity-ide/brain/15bf6a9d-ba9e-469a-9a5d-8fc4d67815c5/candidate_profile_timeline_1787163175083.png)
+
+- **Graph Explorer** – interactive force‑graph canvas with filtering.
+  ![Graph Explorer](file:///C:/Users/Subha/.gemini/antigravity-ide/brain/15bf6a9d-ba9e-469a-9a5d-8fc4d67815c5/graph_explorer_1787164488735.png)
+
+- **Career Path Result** – shortest‑path calculation visual.
+  ![Career Path Result](file:///C:/Users/Subha/.gemini/antigravity-ide/brain/15bf6a9d-ba9e-469a-9a5d-8fc4d67815c5/career_paths_result_1787163241450.png)
+
+We also tested the API endpoint:
+
+```bash
+curl https://talentgraph-chi.vercel.app/api/stats
+```
+
+which returns JSON with node/edge statistics, confirming the backend is connected to CognoDB.
+
+
 ## 🎯 Why a Graph Database?
 
 Relational databases (RDBMS) model data in tabular rows and columns, requiring costly Cartesian products and foreign key JOIN operations to connect entities. In contrast, talent discovery, organizational hierarchies, and professional relationships are **inherently graph-structured**. 
