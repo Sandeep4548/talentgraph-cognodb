@@ -1,0 +1,26 @@
+{
+  "name": "talentgraph",
+  "version": "1.0.0",
+  "description": "Professional Network & Talent Discovery Platform powered by CognoDB Graph Database",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node scripts/seed.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "neo4j-driver": "^5.27.0",
+    "react-force-graph-2d": "^1.25.6",
+    "lucide-react": "^0.460.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
